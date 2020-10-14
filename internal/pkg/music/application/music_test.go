@@ -11,3 +11,10 @@ func TestCreateMusicApplicationService(t *testing.T) {
 	ap := application.NewMusicApplicationService()
 	assert.NotNil(t, ap)
 }
+func TestGetAllMusic(t *testing.T) {
+	ap := application.NewMusicApplicationService()
+
+	musics, err := ap.GetAllMusic()
+	assert.NotNil(t, musics)
+	assert.Nil(t, err)
+}
