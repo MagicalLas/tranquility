@@ -4,7 +4,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"testing"
 
-	"magical.dev/tranquility/internal/pkg/music/application"
+	"magical.dev/tranquility/internal/app/musicmanagement/application"
 )
 
 func TestCreateMusicApplicationService(t *testing.T) {
